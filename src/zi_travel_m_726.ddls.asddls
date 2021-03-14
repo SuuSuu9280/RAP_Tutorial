@@ -1,9 +1,6 @@
-@AbapCatalog.sqlViewName: 'ZITRAVEL726'
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Travel data - 726'
-@AbapCatalog.preserveKey: true
-//define root view entity ZI_TRAVEL_M_726
-define root view ZI_TRAVEL_M_726
+define root view entity ZI_TRAVEL_M_726
 
   as select from ztravel_726 as Travel
 
